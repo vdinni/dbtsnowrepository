@@ -1,4 +1,3 @@
-select
+SELECT
     *
-from {{ source('demo', 'bike') }}
-limit 10
+FROM {{ source('demo', 'bike') }}

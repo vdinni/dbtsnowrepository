@@ -8,7 +8,6 @@ SELECT
 
     {{get_season('STARTED_AT')}} AS STATION_OF_YEAR
 
-
 FROM
     {{ source('demo', 'bike') }}
 WHERE STARTED_AT != 'started_at'

@@ -10,6 +10,5 @@ WITH BIKE AS (
 
     WHERE RIDE_ID != 'ride_id'
 
-    limit 10
 )
 SELECT * FROM BIKE
